@@ -1,7 +1,7 @@
 *, *::before, *::after{ box-sizing: border-box; }
 /* common */
 body{
-    width: 1200px;
+    max-width: 1200px;
     color: #333333;
     font-size: 24px;
     line-height: 1.3;
@@ -78,6 +78,9 @@ header{
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
+}
+.application-area h2:hover{
+    text-shadow:3px 3px 0 #666;
 }
 @keyframes yurayura {
     0%{
@@ -156,14 +159,18 @@ header{
     top: 72px;
     right: 516px;
 }
+.production-area .img:hover {
+        filter: brightness(40%);
+      }
+        
 /* recommend-area */
 .main-area{
     background-color: #151442;
     height: 995px;
     width: 100%;
 }
-.main-area img h2{
-    color: #fff;
+.main-area h2{
+    color: #ffffff;
     font-weight: bold;
     font-size: 36px;
     padding-top: 80px;
@@ -257,6 +264,9 @@ header{
     top: 165px;
     left: 170px;
 }
+.character-area p:hover{
+    text-shadow:3px 3px 0 #666;
+}
 .character-area h2{
     font-size: 36px;
     font-weight: bold;
@@ -339,6 +349,9 @@ header{
     position: absolute;
     top: 150px;
     left: 220px;
+}
+.application-img h2:hover{
+    text-shadow:5px 5px 0 #666;
 }
 /* footer */
 footer{
